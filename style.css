@@ -1,0 +1,65 @@
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, blue, rgb(231, 142, 41));
+
+}
+ .retangulo img{
+border-radius: 10px ;
+width: 200px;
+height: 200px;
+display: flex;
+
+} 
+/* .conteudo{
+    border-radius: 10px ;
+width: 50px;px ;
+height: 50px;
+} */
+.trapesio img{
+    border-radius: 10px ;
+width: 200px;
+height: 200px;
+display: flex;
+}
+.triangulo img{
+    border-radius: 10px ;
+width: 200px;
+height: 200px;
+display: flex;
+}
+.circulo img{
+    border-radius: 10px ;
+width: 200px;
+height: 200px;
+display: flex;
+}
+.losango img{
+    border-radius: 10px ;
+width: 200px;
+height: 200px;
+display: flex;
+}
+.conteudo{
+    display: flex;
+    /* flex-direction: column; */
+     /* justify-content: center; */
+     /* align-items: center; */
+      /* margin: 0 60px;
+    padding: 10px; */
+    justify-content: space-around;
+    align-items: center;
+    /* transition: 0.3 ease-in-out; */
+}
+
+img{
+    margin-top: 420px;
+     transition: 0.3s ease-in-out; 
+    
+}
+img:hover{
+    width: 220px;
+   height: 220px;
+   box-shadow: 10px 5px 5px;
+
+}
